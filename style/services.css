@@ -1,0 +1,53 @@
+.services-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 156, 207);
+    border-radius: 10px;
+}
+
+.services-divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 150px;
+    gap: 30px;
+}
+
+.services-divs div{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.146);
+    height: 250px;  
+    border-radius: 8px; 
+    transition: background-color 0.2s; 
+}
+
+.services-divs p{
+    text-align: center;
+    width: 90%;
+}
+
+.services-sec div h2{
+    color: rgb(235, 238, 240);
+}
+
+.services-divs div:hover{
+    background-color: rgb(223, 242, 252);
+}
+
+.fa-solid{
+    font-size: 28px;
+}
+
+.fa-hammer, .fa-bolt, .fa-sink{
+    color: rgb(6, 44, 59);
+}

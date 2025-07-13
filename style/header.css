@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 48px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
+
+header h1{
+    padding-left: 50px;
+    font-size: 27px;
+    color: rgb(9, 34, 47);
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    padding: 0 50px 0 0;
+}
+
+header a{
+    color: rgb(17, 45, 58);
+    transition: color 0.2s;
+}
+
+header a:hover{
+    color: rgb(64, 161, 206);
+}
+

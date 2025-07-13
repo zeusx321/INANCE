@@ -4,88 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INANCE</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style/body.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/services.css">
+    <link rel="stylesheet" href="style/form-footer.css">\
+    <link rel="stylesheet" href="style/prov.css">
 </head>
 <body>
     <header>
         <h1>INANCE</h1>
         <nav>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact Us</li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    <section class="main-sec">
+
+    <section class="main-sec" id="home">
         <div class="left-part">
             <div class="p-part">
-                <h2>Repair and Maintenance Services</h2>
+                <p class="red-p">*Close after 24H</p>
+                <h2>Repair and Maintenance Services.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum voluptatem adipisci. Quos molestiae saepe dicta nobis pariatur, tempora iusto, ad possimus soluta hic praesentium mollitia consequatur beatae, aspernatur culpa.</p>
             </div>
-            <button class="orange-but">
+            <button class="blue-but">
                 Contact Us
             </button>
         </div>
-        <div>
-            <img src="assests/slider-img.png" alt="Man">
+        <div class="right-div">
+            <img src="assests/slider-img.png" alt="Man" class="slider">
         </div>
     </section>
 
-    <section class="main-sec">
-        <div class="left-part">
-            <div class="p-part">
-                <h2>About us</h2>
+    <section class="about-sec" id="about">
+        <div class="a-left-part">
+            <div class="a-p-part">
+                <h2  class="a-about-h2">About us</h2>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
             </div>
-            <button class="blue-but">
+            <button class="white-but">
                 Read More
             </button>
         </div>
-        <div>
+        <div class="a-right-div">
             <img src="assests/about-img.jpg" alt="Man">
         </div>
     </section>
 
-    <section class="main-sec">
-        <div class="left-part">
-            <div class="p-part">
+    <section class="prov-sec">
+        <div class="p-left-part">
+            <div class="p-p-part">
                 <h2>We Provide Professional Home Services.</h2>
                 <p>randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All randomised words which don't look even slightly</p>
             </div>
-            <button class="orange-but">
+            <button class="blue-but">
                 Contact Us
             </button>
         </div>
-        <div>
-            <img src="assests/professional-img.png" alt="Man">
+        <div class="p-right-div">
+            <img src="assests/professional-img.png" alt="Man" id="prov-img">
         </div>
     </section>
 
-    <section>
+    <section class="services-sec" id="services">
         <div>
-            <p>OUR SERVICES</p>
+            <h2>OUR SERVICES</h2>
+        </div>
+        <div class="services-divs">
+            <div>
+                <i class="fa-solid fa-hammer"></i>
+                <h3>Maintenance</h3>
+                <p>when looking at its layout. The point of using Lorem Ipsum isthat it has a more-or-less normal</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Electrical</h3>
+                <p>when looking at its layout. The point of using Lorem Ipsum isthat it has a more-or-less normal</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-sink"></i>
+                <h3>Plumbing</h3>
+                <p>when looking at its layout. The point of using Lorem Ipsum isthat it has a more-or-less normal</p>
+            </div>
         </div>
         <div>
-            <div>
-                <i></i>
-                <p>Maintenance</p>
-                <p>when looking at its layout. The point of using Lorem Ipsum isthat it has a more-or-less normal</p>
-            </div>
-            <div>
-                <i></i>
-                <p>Electrical</p>
-                <p>when looking at its layout. The point of using Lorem Ipsum isthat it has a more-or-less normal</p>
-            </div>
-            <div>
-                <i></i>
-                <p>Plumbing</p>
-                <p>when looking at its layout. The point of using Lorem Ipsum isthat it has a more-or-less normal</p>
-            </div>
-        </div>
-        <div>
-            <button class="blue-but">
+            <button class="white-but">
                 View More
             </button>
         </div>
     </section>
+
+    <section class="contact-div" id="contact">
+        <div class="c-left-part">
+            <h2>Contact Us</h2>
+            <div class="form-div">
+                <input type="text" placeholder="Name" name="">
+                <input type="text" placeholder="Phone Number" name="">
+                <input type="text" placeholder="Email" name="">
+                <input type="text" placeholder="Message" name="">
+            </div>
+            <button class="blue-but">
+                Send
+            </button>   
+        </div>
+        <div class="c-right-part">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1861009.5379097238!2d53.94857525!3d24.354006899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e48dfb1ab12bd%3A0x33d32f56c0080aa7!2sUnited%20Arab%20Emirates!5e0!3m2!1sen!2seg!4v1752409896143!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        &copy; developed by Eng. Ziad Elsayd
+    </footer>
 </body>
 </html>

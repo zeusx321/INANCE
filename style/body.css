@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(6, 29, 37);
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    padding-top: 45px;
+    background-color: white;
+}

@@ -1,0 +1,50 @@
+.contact-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.c-left-part{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    gap: 30px;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div input{
+    background-color: rgb(241, 243, 244);
+    margin-bottom: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.048);
+}
+
+.c-right-part{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.c-right-part iframe{
+    width: 90%;
+    height: 80%;
+}
+
+footer{
+    background-color: rgb(6, 30, 35);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
