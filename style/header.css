@@ -28,11 +28,11 @@ header li{
 }
 
 header a{
-    color: rgb(17, 45, 58);
+    color: var(--black-blue);
     transition: color 0.2s;
 }
 
 header a:hover{
-    color: var(--blue);
+    color: var(--text-hover);
 }
 
