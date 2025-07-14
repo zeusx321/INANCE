@@ -19,6 +19,7 @@
     margin-bottom: 20px;
     font-size: 55px;
     width: 40%;
+    color: var(--black-blue);
 }
 
 .about-h2::after{
@@ -26,22 +27,24 @@
     width: 240px;
     height: 7px;
     position: absolute;
-    background-color: rgb(54, 156, 207);
+    background-color: var(--blue);
     bottom: 145px;
     border-radius: 10px;
     left: 0;
 }
 
-.left-part p{
+.p-main-div{
     margin-bottom: 20px;
     width: 75%;
     line-height: 23px;
     font-size: 17px;
+    color: var(--black-blue);
 }
 
-.red-p{
-    color: red;
+.blue-p{
+    color: var(--black-blue);
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .right-div{
@@ -60,22 +63,22 @@
     width: 120px;
     height: 45px;
     border-radius: 7px;
-    border: 2px solid rgb(54, 156, 207);
-    color: rgb(54, 156, 207);
+    border: 2px solid var(--blue);
+    color: var(--blue);
     transition: color 0.2s, background-color 0.2s;
 }
 
 .white-but{
-    border: 2px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    border: 2px solid var(--white-blue);
+    color: var(--white-blue);
 }
 
 .blue-but:hover{
-    color: rgb(237, 241, 243);
-    background-color: rgb(54, 156, 207);
+    color: var(--white-blue);
+    background-color: var(--blue);
 }
 
 .white-but:hover{
-    color: rgb(54, 156, 207);
-    background-color: rgb(232, 235, 237);
+    color: var(--blue);
+    background-color: var(--white-blue);
 }

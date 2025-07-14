@@ -1,3 +1,13 @@
+:root{
+    --black-blue: rgb(5, 32, 46);
+    --white-blue: rgb(237, 241, 242);
+    --blue: rgb(54, 156, 207);
+    --white: white;
+    --hover-white-blue: rgb(213, 237, 249);
+    --icons: rgb(6, 44, 59);
+    --box-shadow: rgba(0, 0, 0, 0.048);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,12 +16,16 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    color: rgb(6, 29, 37);
 }
 
 body{
     font-family: "Raleway", sans-serif;
     position: relative;
-    padding-top: 45px;
-    background-color: white;
+    padding-top: 65px;
+    background-color: var(--white)
+}
+
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
 }

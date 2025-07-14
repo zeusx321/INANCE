@@ -16,23 +16,14 @@
 .p-left-part h2{
     margin-bottom: 20px;
     font-size: 45px;
-}
-
-.about-h2::after{
-    content: " ";
-    width: 240px;
-    height: 7px;
-    position: absolute;
-    background-color: rgb(54, 156, 207);
-    bottom: 145px;
-    border-radius: 10px;
-    left: 0;
+    color: var(--black-blue);
 }
 
 .p-left-part p{
     margin-bottom: 20px;
     line-height: 23px;
     font-size: 17px;
+    color: var(--black-blue);
 }
 
 .p-right-div{
@@ -40,5 +31,9 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.p-right-div img{
+    width: 100%;
 }
 

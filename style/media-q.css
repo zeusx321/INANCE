@@ -1,0 +1,141 @@
+@media (max-width: 835px){
+    .main-sec{
+        height: 600px;
+    }
+    
+    .left-part h2{
+        font-size: 45px;
+    }
+    .left-part p{
+        font-size: 14px;
+    }
+
+    .a-left-part h2{
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .a-left-part p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .a-right-div img{
+        width: 300px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .a-left-part{
+        width: 100%;
+    }
+
+    .p-left-part{
+        width: 70%;
+    }
+
+    .p-left-part h2{
+        font-size: 30px;
+    }
+    
+    .p-left-part p{
+        font-size: 14px;
+    }
+
+    .services-divs{
+        flex-direction: column;
+    }
+
+    .services-sec{
+        height: 1050px;
+    }
+
+    .contact-div{
+        flex-direction: column;
+        height: 950px;
+    }
+
+    .c-left-part{
+        align-items: center;
+        padding-left: 0px;
+    }
+
+}
+
+@media (max-width: 573px){
+    .main-sec{
+        flex-direction: column;
+        height: 500px;
+        gap: 30px;
+        text-align: center;
+    }
+    .right-div, .p-right-div img, .a-right-div img{
+        display: none;
+    }
+
+    .left-part{
+        width: 100%;
+    }
+
+    .left-part h2{
+        margin-bottom: 20px;
+        font-size: 45px;
+        width: 90%;
+    }
+
+    .prov-sec, .about-sec{
+        height: 450px;
+    }
+
+    .p-left-part{
+        width: 90%;
+        text-align: center;
+    }
+
+    .a-p-part{
+        text-align: center;
+    }
+
+    .a-left-part, .a-p-part, .p-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+}
+
+@media (max-width: 425px){
+    .main-sec{
+        padding: 0;
+        height: 460px;
+    }
+
+    .left-part h2{
+        font-size: 37px;
+    }
+
+    .p-left-part{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .p-left-part h2{
+        font-size: 28px;
+    }
+    .form-div input{
+        width: 290px;
+    }
+    .c-right-part iframe{
+        width: 70%;
+        height: 90%;
+    }
+    .c-right-part{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
